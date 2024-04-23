@@ -1,0 +1,95 @@
+Recent Calibrated Params
+
+% sediment Parameters
+v_spexp.rte {[1:19], [20:23 25:27 32 33 38 40 44], [24 28:31 34:37 39 41:43 45]} = {1.075,1.98,1.075}
+v_spcon.rte {[1:19], [20:23 25:27 32 33 38 40 44], [24 28:31 34:37 39 41:43 45]} = {0.001,0.000127,0.000127}
+v__CH_COV1.rte    0.6   0.6
+v__CH_COV2.rte    1   1
+CH_EQN.rte		1	1
+
+% mgt files
+v__USLE_P.mgt    	      0.254907   0.254907
+v__BIOMIX.mgt		      0.101015   0.101015
+r__DDRAIN.mgt    	      0.04   0.04
+r__TDRAIN.mgt                 1  1
+r__GDRAIN.mgt                 -0.95835    -0.95835
+r__CN2.mgt                    -0.01573 -0.01573 (overall) (from the recent one use +0.13)
+
+%bsn
+v__SURLAG.bsn                 0.42 0.42
+v__SMFMX.bsn                  7.2  7.2
+v__SMFMN.bsn			2   2
+v__ITDRN.bsn			1   1
+v__SSTMAXD_BSN.bsn		5   5
+v__TIMP.bsn			0.95   0.95
+v__PRF_BSN.bsn			1.391431   1.391431
+v__ADJ_PKR.bsn			1.734867   1.734867
+v__SPEXP.bsn 			1.075 1.075
+v__N_UPDIS.bsn                40.666546 40.666546
+v__RSDCO.bsn                  0.02 0.02
+v__SDNCO.bsn                  1.047 1.047
+v__P_UPDIS.bsn                67.499023 67.499023
+v__PHOSKD.bsn                 151.742432 151.742432
+v__PSP.bsn                    0.038533 0.038533
+r__CMN.bsn			-0.05   -0.05
+r__CDN.bsn			-0.1   -0.1
+
+%sub
+v__CH_N1.sub			0.038   0.038
+
+%sol
+r__SOL_BD().sol               0.180429 0.180429
+r__SOL_K().sol                2.509857 2.509857
+r__SOL_AWC(1).sol	0.1055   0.1055	(from the default)		( with the current model -0.05   -0.05)
+r__SOL_AWC(2).sol	0.0626	0.0626	(From the default)		 -0.05   -0.05
+r__SOL_AWC(3).sol						 0   0
+v__ANION_EXCL.sol    0.1   0.1
+v__USLE_K().sol		      0.272736   0.272736
+
+% res
+v__RES_NSED.res               20.332335 20.332335
+v__RES_D50.res                35.189999 35.189999
+v__RES_K.res		      0.08   0.08
+
+%hru
+v__EPCO.hru                   0.921307 0.921307
+v__ESCO.hru                   0.854418 0.854418
+v__CANMX.hru                  0.8   0.8
+v__DEP_IMP.hru		      1500 1500
+v__OV_N.hru		      0.32	0.32
+v__LAT_SED.hru		      6.96   6.96
+v__ERORGP.hru    1.1   1.1
+
+%gw
+v__HLIFE_NGW.gw    100   100
+v__GW_DELAY.gw    23   23
+v__GWQMN.gw    315   315
+v__GW_REVAP.gw	0.18	0.18
+v__ALPHA_BF.gw	0.23	0.23
+v__GW_SPYLD.gw    0.13   0.13
+v__SHALLST_N.gw    0.1   0.1
+v__RCHRG_DP.gw    0.0001   0.0001
+v__LAT_ORGP.gw    0   0
+
+%lw
+v__NSETLR1.lwq    24.87   24.87
+v__NSETLR2.lwq    24.87   24.87
+v__PSETLR1.lwq    25.62   25.62
+v__PSETLR2.lwq    25.62   25.62
+
+%swq
+v__RS5.swq                    0.098131 0.098131
+v__BC1.swq                    0.608138 0.608138
+v__BC3.swq                    0.274221 0.274221
+v__BC4.swq                    0.331475 0.331475
+
+%wwq
+v__AI1.wwq                    0.083308 0.083308
+v__AI2.wwq                    0.013278 0.013278
+
+%plant.dat
+v__USLE_C{133}.plant.dat    0.09   0.09
+v__USLE_C{135}.plant.dat    0.14   0.14
+
+%.chm
+r__SOL_SOLP().chm    -0.296   -0.296 (default value SOL_SOLP: Layer 1,2 and 3 = 38.24; Layer 4-10 = 4.9)
