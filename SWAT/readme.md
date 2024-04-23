@@ -1,0 +1,3 @@
+This folder contains data (in Inputs) and developed scripts (in Scripts) for coupling the ABM and SWAT and incorporating Miscanthus into the SWAT model. This folder does not contain a .zip file consisting of all needed SWAT input files and SWAT.exe file to run the model. Please contact me at egolub2@illinois.edu for a any of the calibrated SWAT scenario models.
+
+This calibrated SWAT model was originally developed by Sundar Niroula in Niroula et al., 2023 (see references below). I have merely contributed methods for how to incorporate Miscanthus and how to couple with Yang et al., 2022's BECT-ABM model.
