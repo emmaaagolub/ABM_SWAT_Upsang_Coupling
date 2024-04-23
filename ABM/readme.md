@@ -1,4 +1,5 @@
 This folder contains all adjusted code and data that is required to run select policy scenarios in the ABM. This model is an adjusted version of the original "BECT-AM" developed by Yang et al., 2022 (see references below to the paper and original code).
+
 The original model was adjusted for the purposes of enhancing usability, debugging, and changing the region of extent from the Sangamon River Basin to the Upper Sangamon Watershed. Switch cases were defined in the main.py, parameters.py, and visulization_new.py files to help choose policy scenarios more easily. Package inconsistencies were resolved, and the requirements.txt file specifies which packages and versions to install. Please create a virtual environment called ".abmvenv" and make sure to install all appropriate packages into this virtual environment.
 
 The main files to run for the ABM are _main.py_ and _visulization_new.py_.
@@ -12,10 +13,10 @@ prompted.
 3. Run _save_output_to_shp.py_ to save ABM outputs to shapefile for further post-processing.
 4. Run _ABM_post_processing_results.py_ to post process some results into .csv files.
 
-For coupling procedure and pre-processing for SWAT:
+For coupling procedure and pre-processing for SWAT: (see scripts in /SWAT/Scripts/Miscanthus_Scripts/)
 5. Run _GIS_spatial_joining.py_ with Python **v2.7.18** to automate ArcGIS procedure for
 merging slope, soil, and subbasin characteristics.
-6. Back in .abmvenv in Python **v3.11.1**, run _HRU_miscanthus_matching.py_ to initiate
+6. Enabling .abmvenv with Python **v3.11.1**, run _HRU_miscanthus_matching.py_ to initiate
 automation process of defining the list of overlapped or matched HRUs to select ABM
 scenario miscanthus output.
 7. Run _HRU_miscanthus_weighting.py_ to automate process of defining alternative weighting
