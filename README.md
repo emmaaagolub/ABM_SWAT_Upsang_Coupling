@@ -1,6 +1,6 @@
 # ABM_SWAT_Upsang_Coupling
 
-This repository contains scripts and models for a case study of coupling a behavioral agent-based model developed by Yang et al., 2022 and a calibrated SWAT model developed by Niroula et al., 2023. This work was performed for my master's thesis, "Understanding the Impacts of Policy and Stakeholder Behavior on Watershed Quality in the Midwest." This work is my own and belongs to the University of Illinois, Urbana Champaign.
+This repository contains scripts and models for a case study that couples a behavioral agent-based model developed by Yang et al., 2022 and a calibrated SWAT model developed by Niroula et al., 2023. This work was performed for my master's thesis, "Understanding the Impacts of Policy and Stakeholder Behavior on Watershed Quality in the Midwest." This work is my own and belongs to the University of Illinois, Urbana Champaign.
 
 An overarching flowchart of my work can be visualized as follows:
 ![framework_flowchart](https://github.com/emmaaagolub/ABM_SWAT_Upsang_Coupling/assets/112973445/f10c500e-fb77-4caa-938f-6691980f00b8)
